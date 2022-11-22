@@ -1,3 +1,6 @@
+/* Her starter sidens generelle styling */
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Raleway:wght@300;500&display=swap');
 * { /* Gælder alt på hele siden */
     box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
 }
@@ -12,6 +15,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0; /* Ingen ydre margen fra overskrifter */
     padding: 0; /* Ingen indre margen fra overskrifter */
+    font-family: 'Changa', sans-serif;
+    color: white;
 }
 
 ul, ol {
@@ -27,6 +32,8 @@ li {
 p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
+    font-family: 'Changa', sans-serif;
+    color: white;
 }
 
 /* Sikrer billeder er responsive */
@@ -112,13 +119,18 @@ img {
 /* Her slutter stylingen af headeren */
 /* Her slutter stylingen af headeren */
 
+/* Her starter sidens FAQ */
+/* Her starter sidens FAQ */
+/* Her starter sidens FAQ */
+
+
 h1 {
     margin: 0; /* Ingen ydre margen fra overskrifter */
     padding: 0; /* Ingen indre margen fra overskrifter */
     color: white;
     font-size: 40px;
-    font-family: 'Fira Sans', sans-serif;
     alignment: center;
+    font-family: 'Changa', sans-serif;
 }
 h1:after
 {
@@ -139,6 +151,8 @@ h1:after
     align-content: center;
     alignment: center;
     align-self: center;
+    font-family: 'Changa', sans-serif;
+    color: white;
 }
 
 .overskrift2{
@@ -152,6 +166,13 @@ h1:after
     margin: 1rem;
 }
 
+/* Her slutter sidens FAQ */
+/* Her slutter sidens FAQ */
+/* Her slutter sidens FAQ */
+
+/* Her starter sidens kontakt oplysninger */
+/* Her starter sidens kontakt oplysninger */
+/* Her starter sidens kontakt oplysninger */
 
 .wrapper {
     display: grid;
@@ -183,6 +204,14 @@ h1:after
     grid-row: 2/3;
     grid-column: 1/-1;
 }
+
+/* Her slutter sidens kontakt oplysninger */
+/* Her slutter sidens kontakt oplysninger */
+/* Her slutter sidens kontakt oplysninger */
+
+/* Her starter media screen */
+/* Her starter media screen */
+/* Her starter media screen */
 
 @media screen and (min-width: 769px){
     .headerGrid {
@@ -372,7 +401,14 @@ h1:after
             justify-content: center;
         }
 
+        /* Her slutter media screen */
+        /* Her slutter media screen */
+        /* Her slutter media screen */
+
         /*Her starter styling af footeren */
+        /*Her starter styling af footeren */
+        /*Her starter styling af footeren */
+
         .icon-bar {
             width: 100%;
             background-color: #ffa500; /* Dark-grey background */
@@ -429,4 +465,6 @@ h1:after
             color: white;
             background-color: transparent;
         }
+/* Her slutter styling af footeren */
+/* Her slutter styling af footeren */
 /* Her slutter styling af footeren */
