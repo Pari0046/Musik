@@ -192,7 +192,7 @@ h1:after
 /* Her starter sidens kontakt oplysninger */
 /* Her starter sidens kontakt oplysninger */
 
-.wrapper {
+.bund {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #12401f;
