@@ -213,13 +213,13 @@ h1:after
 /* Her starter media screen */
 /* Her starter media screen */
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 769px) {
     .headerGrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .overskrift{
+    .overskrift {
         grid-column: 1/-1;
         grid-row: 1/2;
         margin: 2.5rem 1rem;
@@ -227,7 +227,7 @@ h1:after
         justify-self: center;
     }
 
-    .overskrift2{
+    .overskrift2 {
         grid-column: 1/-1;
         grid-row: 1/2;
         margin: 2.5rem 1rem;
@@ -235,37 +235,37 @@ h1:after
         justify-self: center;
     }
 
-    .spg1{
+    .spg1 {
         grid-column: 1/2;
         grid-row: 2/3;
         color: white;
     }
 
-    .spg2{
+    .spg2 {
         grid-column: 2/-1;
         grid-row: 2/3;
         color: white;
     }
 
-    .spg3{
+    .spg3 {
         grid-column: 1/2;
         grid-row: 3/4;
         color: white;
     }
 
-    .spg4{
+    .spg4 {
         grid-column: 2/-1;
         grid-row: 3/4;
         color: white;
     }
 
-    .spg5{
+    .spg5 {
         grid-column: 1/2;
         grid-row: 4/5;
         color: white;
     }
 
-    .spg6{
+    .spg6 {
         grid-column: 2/-1;
         grid-row: 4/5;
         color: white;
@@ -301,14 +301,14 @@ h1:after
         background-color: #12401f;
         padding: 20px;
     }
-
-    @media screen and (min-width: 670px){
+}
+    @media screen and (min-width: 670px) {
         .headerGrid {
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
 
-        .overskrift{
+        .overskrift {
             grid-column: 1/-1;
             grid-row: 1/2;
             margin: 2.5rem 1rem;
@@ -316,7 +316,7 @@ h1:after
             justify-self: center;
         }
 
-        .overskrift2{
+        .overskrift2 {
             grid-column: 1/-1;
             grid-row: 1/2;
             margin: 2.5rem 1rem;
@@ -324,37 +324,37 @@ h1:after
             justify-self: center;
         }
 
-        .spg1{
+        .spg1 {
             grid-column: 1/2;
             grid-row: 2/3;
             color: white;
         }
 
-        .spg2{
+        .spg2 {
             grid-column: 2/-1;
             grid-row: 2/3;
             color: white;
         }
 
-        .spg3{
+        .spg3 {
             grid-column: 1/2;
             grid-row: 3/4;
             color: white;
         }
 
-        .spg4{
+        .spg4 {
             grid-column: 2/-1;
             grid-row: 3/4;
             color: white;
         }
 
-        .spg5{
+        .spg5 {
             grid-column: 1/2;
             grid-row: 4/5;
             color: white;
         }
 
-        .spg6{
+        .spg6 {
             grid-column: 2/-1;
             grid-row: 4/5;
             color: white;
@@ -392,7 +392,7 @@ h1:after
         }
 
 
-        .overskrift2{
+        .overskrift2 {
             grid-column: 1/-1;
             grid-row: 1/2;
             margin: 2.5rem 1rem;
@@ -400,71 +400,85 @@ h1:after
             justify-self: center;
             justify-content: center;
         }
-
+    }
         /* Her slutter media screen */
         /* Her slutter media screen */
         /* Her slutter media screen */
 
-        /*Her starter styling af footeren */
-        /*Her starter styling af footeren */
-        /*Her starter styling af footeren */
+        /* Her starter adskillelse af indhold og menubar */
+        /* Her starter adskillelse af indhold og menubar */
+        /* Her starter adskillelse af indhold og menubar */
 
-        .icon-bar {
-            width: 100%;
-            background-color: #ffa500; /* Dark-grey background */
-            overflow: auto; /* Overflow due to float */
-            grid-column: 1/-1;
-            font-family: 'Changa', sans-serif;
-        }
+.header {
+    background-color: #ffa500;
+    height: 10px;
+}
 
-        .icon-bar a {
-            float: left; /* Float links side by side */
-            text-align: center; /* Center-align text */
-            align-items: center;
-            width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-            padding: 10px 0; /* Some top and bottom padding */
-            transition: all 0.3s ease; /* Add transition for hover effects */
-            color: white; /* White text color */
-            font-size: 30px; /* Increased font size */
-        }
+/* Her slutter adskillelse af indhold og menubar */
+/* Her slutter adskillelse af indhold og menubar */
+/* Her slutter adskillelse af indhold og menubar */
 
-        .icon-bar a:hover {
-            background-color: seagreen; /* Add a hover color */
-        }
+/*Her starter styling af footeren */
+/*Her starter styling af footeren */
+/*Her starter styling af footeren */
 
-        .active {
-            background-color: #12401f; /* Add an active/current color */
-        }
+.icon-bar {
+    width: 100%;
+    background-color: #12401f; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    grid-column: 1/-1;
+    font-family: 'Changa', sans-serif;
+}
 
-        .copyright {
-            background-color: #12401f;
-            color: #ffa500;
-            padding: 10px;
-            text-align: center;
-            font-size: 10px;
-            font-family: 'Changa', sans-serif;
-        }
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    align-items: center;
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 10px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 30px; /* Increased font size */
+}
 
-        .list-item{
-            color: white;
-        }
+.icon-bar a:hover {
+    background-color: seagreen; /* Add a hover color */
+}
 
-        a:link {
-            color: white;
-            background-color: transparent;
-            text-decoration: none;
-        }
+.active {
+    background-color: #12401f; /* Add an active/current color */
+}
 
-        a:visited {
-            color: white;
-            background-color: transparent;
-            text-decoration: none;
-        }
+.copyright {
+    background-color: #12401f;
+    color: #ffa500;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Changa', sans-serif;
+}
 
-        a:active {
-            color: white;
-            background-color: transparent;
-        }
+.list-item{
+    color: white;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+}
+
 /* Her slutter styling af footeren */
 /* Her slutter styling af footeren */
 /* Her slutter styling af footeren */
