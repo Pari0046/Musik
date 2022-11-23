@@ -162,6 +162,8 @@ h1:after
 .headerGrid{
     display: grid;
     margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .overskrift{
