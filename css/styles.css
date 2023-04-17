@@ -33,7 +33,7 @@ p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
     font-family: 'Changa', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 /* Sikrer billeder er responsive */
@@ -47,41 +47,9 @@ img {
 /* Farver start */
 /* Farver start */
 
-.bg-primary{
-    background-color: #12401f;
-}
-
-.text-primary{
-    color: white;
-}
-
-.bg-secondary{
-    background-color: #ffa500;
-}
-
-.text-secondary{
-    color: #ffa500;
-}
-
 .container{
     color: #ffa500;
     font-family: 'Changa', sans-serif;
-}
-
-.spg{
-    color: white;
-}
-
-button{
-    background-color: #ffa500;
-    color: #12401f;
-    font-weight: bold;
-    padding: 15px 30px;
-    margin: 5px;
-    border: none;
-    text-align: center;
-    font-size: 20px;
-    cursor: pointer;
 }
 
 /* Farver slut */
@@ -94,7 +62,7 @@ button{
 
 .navbar{
     background-color: #12401f;
-    color: white;
+    color: #ffffff;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -113,7 +81,7 @@ button{
 }
 
 .navbar a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -140,21 +108,21 @@ button{
 h1 {
     margin: 0; /* Ingen ydre margen fra overskrifter */
     padding: 0; /* Ingen indre margen fra overskrifter */
-    color: white;
+    color: #ffffff;
     font-size: 40px;
     alignment: center;
     font-family: 'Changa', sans-serif;
 }
 
 h5{
-    color: white;
+    color: #ffffff;
 }
 
 h1:after
 {
     content: '';
     display:block;
-    border:2px solid white;
+    border:2px solid #ffffff;
     font-family: 'Fira Sans', sans-serif;
     alignment: center;
 }
@@ -172,7 +140,7 @@ h1:after
     alignment: center;
     align-self: center;
     font-family: 'Changa', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 .overskrift2{
@@ -182,10 +150,6 @@ h1:after
     align-self: center;
 }
 
-.spg{
-    margin: 1rem;
-}
-
 /* Her slutter sidens FAQ */
 /* Her slutter sidens FAQ */
 /* Her slutter sidens FAQ */
@@ -193,22 +157,6 @@ h1:after
 /* Her starter sidens kontakt oplysninger */
 /* Her starter sidens kontakt oplysninger */
 /* Her starter sidens kontakt oplysninger */
-
-.bund {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #12401f;
-}
-
-.item1{
-    color: white;
-    background-color: #ffa500;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-    grid-row:1/2;
-    grid-column: 1/-1;
-}
-
 
 .h2 {
     margin: 0; /* Ingen ydre margen fra overskrifter */
@@ -219,12 +167,6 @@ h1:after
 
 }
 
-.item2 {
-    background-color: #ffa500;
-    grid-row: 2/3;
-    grid-column: 1/-1;
-    color: white;
-}
 
 /* Her slutter sidens kontakt oplysninger */
 /* Her slutter sidens kontakt oplysninger */
@@ -256,67 +198,6 @@ h1:after
         justify-self: center;
     }
 
-    .spg1 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        color: white;
-    }
-
-    .spg2 {
-        grid-column: 2/-1;
-        grid-row: 2/3;
-        color: white;
-    }
-
-    .spg3 {
-        grid-column: 1/2;
-        grid-row: 3/4;
-        color: white;
-    }
-
-    .spg4 {
-        grid-column: 2/-1;
-        grid-row: 3/4;
-        color: white;
-    }
-
-    .spg5 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-        color: white;
-    }
-
-    .spg6 {
-        grid-column: 2/-1;
-        grid-row: 4/5;
-        color: white;
-    }
-
-    .input [type=text], select, textarea {
-        width: 100%;
-        padding: 12px;
-        border: 2px solid #12401f;
-        border-radius: 4px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-    }
-
-    input[type=submit] {
-        background-color: #ffa500;
-        color: #ffffff;
-        padding: 12px 20px;
-        border-radius: 4px;
-        cursor: pointer;
-        border: #12401f solid 2px;
-    }
-
-    input[type=submit]:hover {
-        background-color: #ffffff;
-        color: white;
-    }
-
     .container {
         border-radius: 5px;
         background-color: #12401f;
@@ -343,67 +224,6 @@ h1:after
             margin: 2.5rem 1rem;
             alignment: center;
             justify-self: center;
-        }
-
-        .spg1 {
-            grid-column: 1/2;
-            grid-row: 2/3;
-            color: white;
-        }
-
-        .spg2 {
-            grid-column: 2/-1;
-            grid-row: 2/3;
-            color: white;
-        }
-
-        .spg3 {
-            grid-column: 1/2;
-            grid-row: 3/4;
-            color: white;
-        }
-
-        .spg4 {
-            grid-column: 2/-1;
-            grid-row: 3/4;
-            color: white;
-        }
-
-        .spg5 {
-            grid-column: 1/2;
-            grid-row: 4/5;
-            color: white;
-        }
-
-        .spg6 {
-            grid-column: 2/-1;
-            grid-row: 4/5;
-            color: white;
-        }
-
-        .input [type=text], select, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #12401f;
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: 6px;
-            margin-bottom: 16px;
-            resize: vertical;
-        }
-
-        input[type=submit] {
-            background-color: #ffa500;
-            color: #ffffff;
-            padding: 12px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-            border: #12401f solid 2px;
-        }
-
-        input[type=submit]:hover {
-            background-color: #ffffff;
-            color: white;
         }
 
         .container {
@@ -443,54 +263,18 @@ h1:after
 /*Her starter styling af footeren */
 /*Her starter styling af footeren */
 
-.icon-bar {
-    width: 100%;
-    background-color: #12401f; /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
-    grid-column: 1/-1;
-    font-family: 'Changa', sans-serif;
-}
-
-.icon-bar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
-    align-items: center;
-    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
-    padding: 10px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 30px; /* Increased font size */
-}
-
-.icon-bar a:hover {
-    background-color: seagreen; /* Add a hover color */
-}
-
-.active {
-    background-color: #12401f; /* Add an active/current color */
-}
-
-.copyright {
-    background-color: #12401f;
-    color: #ffa500;
-    padding: 10px;
-    text-align: center;
-    font-size: 10px;
-    font-family: 'Changa', sans-serif;
-}
-
 .list-item{
-    color: white;
+    color: #ffffff;
 }
 
 a:link {
-    color: white;
+    color: #ffffff;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: #000000;
     background-color: transparent;
     text-decoration: none;
 }
